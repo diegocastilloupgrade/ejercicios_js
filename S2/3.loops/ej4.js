@@ -8,9 +8,17 @@ const toys = [
   { id: 40, name: 'El gato felix' }
 ];
 
-for (const toy of toys) {
-    if (toy.name.includes("gato")){
-        toys.splice(toys.indexOf(toy));
+//for (const toy of toys) {
+//    if (toy.name.includes("gato")){
+//        toys.splice(toys.indexOf(toy));
+//    }
+//}
+
+for (let i = 0; i < toys.length; i++) {
+    if (toys[i].name.includes("gato")){
+        toys.splice(i,1);
+        i--
     }
+    
 }
 console.log(toys);

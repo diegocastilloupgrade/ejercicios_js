@@ -2,5 +2,5 @@
 
 const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
 rickAndMortyCharacters.push("Morty", "Summer");
-lastCharacterNumber = (rickAndMortyCharacters.length)-1;
-console.log(rickAndMortyCharacters[lastCharacterNumber]);
+lastCharacterNumberOfElements = (rickAndMortyCharacters.length)-1;
+console.log(rickAndMortyCharacters[lastCharacterNumberOfElements]);

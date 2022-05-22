@@ -2,4 +2,4 @@
 
 const RickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
 RickAndMortyCharacters.pop();
-console.log("Primer elemento", RickAndMortyCharacters[0], "Último elemento", RickAndMortyCharacters[RickAndMortyCharacters.length-1]);
+console.log("Primer elemento", RickAndMortyCharacters[0], ", Último elemento", RickAndMortyCharacters[RickAndMortyCharacters.length-1]);
